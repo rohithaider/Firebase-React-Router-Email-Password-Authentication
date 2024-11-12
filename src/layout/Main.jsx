@@ -3,7 +3,7 @@ import Header from "../components/Header/Header";
 
 export default function Main(){
     return (
-        <div>
+        <div className="max-w-5xl mx-auto">
             <Header/>
             <Outlet/>
         </div>
